@@ -18,3 +18,10 @@ lexus_website是在学习前端过程的过程中所做的一个小项目
 
 由于使用了ajax，所以得在服务端环境运行
 
+![img](https://github.com/Carr1996/font_end/blob/master/imgs/lexus%20(1).png)
+
+![img](https://github.com/Carr1996/font_end/blob/master/imgs/lexus%20(2).png)
+
+![img](https://github.com/Carr1996/font_end/blob/master/imgs/lexus%20(3).png)
+
+![img](https://github.com/Carr1996/font_end/blob/master/imgs/lexus%20(4).png)
