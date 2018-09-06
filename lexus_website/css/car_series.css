@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#drive_content{
+	width: 1533px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+#drive_content>p{
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+	color: #333333;
+	margin-bottom: 100px;	
+}
+#car_series{
+	width: 1160px;
+	margin: 0 auto;
+}
+#car_series  ul{
+	width: 1160px;
+	height: 677px;
+}
+#car_series ul li{
+	display: block;
+	width: 268px;
+	height: 205px;
+	float: left;
+	border: 1px solid rgb(235,235,235);
+	margin:10px 10px 10px 10px;
+	text-align: center;
+	font-weight: 300;
+	position: relative;
+}
+#car_series ul li p:nth-child(1){
+	font-size: 25px;
+	margin-top: 5px;
+}
+#car_series ul img{
+	display: inline-block;
+	width: 228px;
+	height: 90px;
+	margin: 7px auto;
+} 
+.car_hover{
+	width: 270px;
+	height: 205px;
+	position: absolute;
+	background: white;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.car_hover:hover{
+	opacity: 0.9;
+}
+.car_hover a{
+	display: block;
+	color: rgb(0,0,0);
+	height: 20px;
+	margin-left: 85px;
+	margin-top: 92.5px;
+	width: 100px;
+}
+.car_hover a:hover{
+	color: rgb(102,102,102);
+}
+
+
+
+
+
+
+#top_share{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+}
+#top{
+	width: 50px;
+	height: 50px;
+	background: url(../img/返回顶部.png);
+	background-size: 50px 50px;	
+	cursor: pointer;
+}
+#share{
+	width: 50px;
+	height: 50px;
+	background: url(../img/分享.png);
+	background-size: 50px 50px;	
+	cursor: pointer;
+}
+#erweima{
+	display: none;
+	position: absolute;
+	left: -220px;
+	bottom: 0;
+	width: 200px;
+	height:200px;
+	background: url(../img/con-1.jpg);
+	background-size: 200px 200px;
+}

@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#drive_content{
+	width: 1533px;
+	margin-top: 100px;
+}
+#drive_content>p{
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+	color: #333333;
+	margin-bottom: 100px;
+}
+.car{
+	width: 1140px;
+	margin: 0 auto;
+}
+.car_title{
+	height:46px;
+	background-color: rgb(243,243,243);
+	font-size: 24px;
+	line-height: 46px;
+	color: #666666;
+	padding-left: 10px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#seriers_content ul{
+	width: 1140px;
+	height: 600px;
+}
+#seriers_content ul li{
+	display: block;
+	width: 243px;
+	height: 171px;
+	float: left;
+	border: 1px solid rgb(235,235,235);
+	margin:10px 20px 10px 20px;
+	text-align: center;
+	font-weight: 300;
+	cursor: pointer;
+}
+#seriers_content ul li p:nth-child(1){
+	font-size: 25px;
+	margin-top: 5px;
+}
+#seriers_content ul li:hover{
+	background: rgb(240,240,240);
+}
+#seriers_content ul img{
+	display: inline-block;
+	width: 191.37px;
+	height: 76.54px;
+	margin: 7px auto;
+} 
+#type_content ul{
+	width: 1140px;
+	height: 150px;
+}
+#type_content ul li{
+	width: 168px;
+	height: 130px;
+	float: left;
+	margin:10px 10px 10px 10px;
+	border: 1px solid rgb(235,235,235);
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 300;
+	cursor: pointer;
+}
+#type_content ul li:hover{
+	background: rgb(240,240,240);
+}
+#type_content ul li p:nth-child(1){
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+#message_content{
+	border: 1px solid rgb(235,235,235);
+	width: 1140px;
+	height: 600px;
+	margin-bottom: 200px;
+}
+#text{
+	color: rgb(153, 153, 153);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top_share{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+}
+#top{
+	width: 50px;
+	height: 50px;
+	background: url(../img/返回顶部.png);
+	background-size: 50px 50px;	
+	cursor: pointer;
+}
+#share{
+	width: 50px;
+	height: 50px;
+	background: url(../img/分享.png);
+	background-size: 50px 50px;	
+	cursor: pointer;
+}
+#erweima{
+	display: none;
+	position: absolute;
+	left: -220px;
+	bottom: 0;
+	width: 200px;
+	height:200px;
+	background: url(../img/con-1.jpg);
+	background-size: 200px 200px;
+}

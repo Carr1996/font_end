@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#page_content{
+	width: 1533px;
+	margin-top: 100px;
+}
+#page_content>p{
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+	color: #333333;
+	margin-bottom: 20px;
+}
+.new_content{
+	width: 1160px;
+	margin: 45px auto;
+	height: 297.17px;
+	border-bottom: 1px solid rgb(230,230,230);
+}
+.page-left a img{
+	width: 270px;
+	height: 151px;
+}
+.page-right .page-title{
+	width: 850px;
+	height: 50.2px;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.page-right .page-title a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+.page-right .page-title a:hover{
+	color: #666666;
+}
+.page-right .page-desc{
+	width: 850px;
+	height: 84px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.page-right .page-date{
+	width: 850px;
+	height: 18px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+#top_share{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	display: none;
+}
+#top{
+	width: 50px;
+	height: 50px;
+	background: url(../img/返回顶部.png);
+	background-size: 50px 50px;	
+	cursor: pointer;
+}
+#share{
+	width: 50px;
+	height: 50px;
+	background: url(../img/分享.png);
+	background-size: 50px 50px;	
+	cursor: pointer;
+}
+#erweima{
+	display: none;
+	position: absolute;
+	left: -220px;
+	bottom: 0;
+	width: 200px;
+	height:200px;
+	background: url(../img/con-1.jpg);
+	background-size: 200px 200px;
+}
