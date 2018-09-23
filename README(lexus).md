@@ -1,4 +1,4 @@
-# font_end
+# front_end
 personal front-end learning correlation
 
 lexus_website是在学习前端过程的过程中所做的一个小项目
